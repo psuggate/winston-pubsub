@@ -1,0 +1,41 @@
+{
+  "name": "winston-pubsub",
+  "version": "0.0.1",
+  "description": "Winston transport that sends logger-messages to Google Pub/Sub",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc"
+  },
+  "keywords": [
+    "Winston",
+    "transport",
+    "pubsub",
+    "google",
+    "gcp",
+    "topic",
+    "publish",
+    "subscribe",
+    "log",
+    "logger",
+    "logging",
+    "error",
+    "warn",
+    "info",
+    "debug",
+    "trace"
+  ],
+  "author": "Patrick Suggate",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mocha": "^9.1.1",
+    "mocha": "^10.0.0",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^4.6.4",
+    "winston": "^3.7.2"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^2.19.4",
+    "winston-transport": "^4.5.0"
+  }
+}
